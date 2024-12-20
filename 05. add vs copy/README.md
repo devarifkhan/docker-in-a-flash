@@ -53,12 +53,12 @@ A compressed tarball that demonstrates the automatic extraction capability of th
 
 1. Build the Docker image:
 ```bash
-docker build -t copy-vs-add-demo .
+docker build -t copy-vs-add .
 ```
 
 2. Run the container:
 ```bash
-docker run -d -p 8080:80 copy-vs-add-demo
+docker run -d -p 8080:80 copy-vs-add
 ```
 
 3. Access the web server:
