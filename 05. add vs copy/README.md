@@ -70,6 +70,3 @@ Ariful Islam
 ## Version
 1.0
 
-## Additional Resources
-- [Official Docker Documentation on COPY](https://docs.docker.com/engine/reference/builder/#copy)
-- [Official Docker Documentation on ADD](https://docs.docker.com/engine/reference/builder/#add)
