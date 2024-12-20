@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <script>
+        function greetUser() {
+            const name = document.getElementById('name').value;
+            alert(`Hello, ${name}!`);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Interactive Page</h1>
+        <nav>
+            <a href="index.html">Homepage</a> |
+            <a href="form.html">Form Page</a>
+        </nav>
+    </header>
+    <main>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <button onclick="greetUser()">Greet Me</button>
+    </main>
+</body>
+</html>
