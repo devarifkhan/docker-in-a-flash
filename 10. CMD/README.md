@@ -19,8 +19,7 @@ This repository demonstrates the use of the `CMD` instruction in a Dockerfile by
 ```
 .
 ├── Dockerfile
-├── index.html
-└── README.md
+└── index.html
 ```
 
 ## Usage
